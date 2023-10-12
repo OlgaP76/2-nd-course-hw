@@ -56,8 +56,8 @@ user ['city of residence'] = 'Москва';
 alert (`Ваш город проживания ${user['city of residence']}`);
 
 //*Задание 9.2
-user.name = 45;
-alert (`Вам ${user.name} лет`);
+user.age = 45;
+alert (`Вам ${user.age} лет`);
 
 //*Задание 9.3
 delete user ['city of residence'];
