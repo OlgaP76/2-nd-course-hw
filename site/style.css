@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  height: 1440px;
+  background-image: url(img/topback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+  max-width: 788px;
+  padding-top: 217px;
+  padding-bottom: 32px;
+}
+.header__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  max-width: 481px;
+  padding-bottom: 44px;
+}
+.header__text_bold {
+  font-weight: 700;
+}
+.header__link {
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  border: none;
+  background: #9C0332;
+  box-sizing: border-box;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.header__link:hover {
+  background: #EB443F;
+}
+.header__link_text {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.top {
+  height: 556px;
+  background: #000915;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.top__item {
+  grid-column: span 4;
+  height: 300px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-decoration: none;
+}
+.top__item_1 {
+  background-image: url(img/top1.jpg);
+}
+.top__item_2 {
+  background-image: url(img/top2.jpg);
+}
+.top__item_3 {
+  background-image: url(img/top3.jpg);
+}
+.top__text {
+  padding: 32px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
