@@ -112,7 +112,7 @@ let clientOS = 1;
 clientOS === 0 ? console.log(`Установите версию приложения для iOS по ссылке`) : console.log(`Установите версию приложения для Android по ссылке`)
 
 //*Задание 9
-let clientOS = 0; 
+let clientOS1 = 0; 
 let clientDeviceYear = 2000;
 if ((clientOS === 1) && (clientDeviceYear >= 2015)) {
     console.log(`Установите версию приложения для Android по ссылке`);
