@@ -10,7 +10,7 @@ if (answer===password) {alert ('Пароль введен верно');
 //or
 let password1 = 'Vs153!q';
 let answer1 = prompt('Введите пароль');
-if (answer===password) {console.log ('Пароль введен верно'); 
+if (answer1===password1) {console.log ('Пароль введен верно'); 
 
 } else {console.log ('Пароль введен неправильно');
 
