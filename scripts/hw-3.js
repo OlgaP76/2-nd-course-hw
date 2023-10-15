@@ -114,11 +114,11 @@ clientOS === 0 ? console.log(`Установите версию приложен
 //*Задание 9
 let clientOS1 = 0; 
 let clientDeviceYear = 2000;
-if ((clientOS === 1) && (clientDeviceYear >= 2015)) {
+if ((clientOS1 === 1) && (clientDeviceYear >= 2015)) {
     console.log(`Установите версию приложения для Android по ссылке`);
-} else if ((clientOS === 1) && (clientDeviceYear < 2015)) {
+} else if ((clientOS1 === 1) && (clientDeviceYear < 2015)) {
     console.log(`Установите облегченную версию приложения для Android по ссылке`);
-} else if ((clientOS === 0) && (clientDeviceYear >= 2015)) {
+} else if ((clientOS1 === 0) && (clientDeviceYear >= 2015)) {
     console.log(`Установите версию приложения для iOS по ссылке`);
 } else {
     console.log(`Установите облегченную версию приложения для iOS по ссылке`);
