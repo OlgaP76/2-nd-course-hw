@@ -41,4 +41,3 @@ for (let i3 = dateFriday; i3 <= 31; i3+=7) {
 
 
 
-
