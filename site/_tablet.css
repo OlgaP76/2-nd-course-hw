@@ -1,0 +1,12 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 392px);
+    padding-right: calc(50% - 392px);
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}/*# sourceMappingURL=_tablet.css.map */
