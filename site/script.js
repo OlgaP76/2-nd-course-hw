@@ -19,4 +19,3 @@ const gameSeason = (answerUser = Number(prompt('Введите номер мес
 
     }
 }
-
