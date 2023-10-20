@@ -25,15 +25,41 @@
     </header>
     <section id="start" class="top center">
         <div class="top__item top__item_1">
-            <a class="top__text" href="#">Игра 1</a>
+            <a class="top__text" href="#game1">Игра 1</a>
         </div>
         <div class="top__item top__item_2">
-            <a class="top__text" href="#">Игра 2</a>
+            <a class="top__text" href="#game2">Игра 2</a>
         </div>
         <div class="top__item top__item_3">
             <a class="top__text" href="#">Игра 3</a>
         </div>
     </section>
+    <section class="game center">
+        <div id="game1" class="game__box">
+            <div class="game__item ">
+                <h1 class="game__title">Времена года</h1>
+                <h2 class="header__text game__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+                    узнаете к какому времени года он относится</h2>
+                <button onclick="console.log(gameSeason())" class="game__button" type="submit">Играть</button>
+            </div>
+            <div class="game__img">
+                <img src="img/Game_1.svg" alt="">
+            </div>
+        </div>
+        <div id="game2" class="game__box">
+            <div class="game__item game__item_revers">
+                <h1 class="game__title"> Запомни слова </h1>
+                <h2 class="header__text game__text">При нажатии на кнопку играть, вы увидите несколько слов, <br>
+                    которые вам необходимо запомнить.</h2>
+                <button class="game__button" type="submit">Играть</button>
+            </div>
+            <div class="game__img game__img_revers">
+                <img src="img/Game_2.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

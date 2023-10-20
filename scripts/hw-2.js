@@ -57,7 +57,7 @@ alert (`Ваш город проживания ${user['city of residence']}`);
 
 //*Задание 9.2
 user.age = 45;
-alert (`Вам ${user.age} лет`);
+alert (`Вам ${user.name} лет`);
 
 //*Задание 9.3
 delete user ['city of residence'];
@@ -67,6 +67,6 @@ alert (`Ваш город проживания ${user['city of residence']}`);
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 alert(user[info]);
 
-//*Задание 10
-let name = prompt("Как вас зовут?");
-alert (`Привет, ${name}'!'`);
+//*Задание 9.4
+let name = prompt("Как вас зовут?") 
+alert (`Привет, ${name}'!'`)

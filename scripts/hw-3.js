@@ -1,3 +1,4 @@
+    
 //* Задание 1
 let password = 'Vs153!q';
 let answer = prompt('Введите пароль');
@@ -10,14 +11,14 @@ if (answer===password) {alert ('Пароль введен верно');
 //or
 let password1 = 'Vs153!q';
 let answer1 = prompt('Введите пароль');
-if (answer1===password1) {console.log ('Пароль введен верно'); 
+if (answer===password) {console.log ('Пароль введен верно'); 
 
 } else {console.log ('Пароль введен неправильно');
 
 }
 
 //* Задание 2
-let c = prompt('Введите любое число');
+let c = Number(prompt('Введите любое число'));
 if (c > 0 && c < 10 ) {console.log('Верно')
     
 } else {console.log ('Неверно')
@@ -114,13 +115,12 @@ clientOS === 0 ? console.log(`Установите версию приложен
 //*Задание 9
 let clientOS1 = 0; 
 let clientDeviceYear = 2000;
-if ((clientOS1 === 1) && (clientDeviceYear >= 2015)) {
+if ((clientOS === 1) && (clientDeviceYear >= 2015)) {
     console.log(`Установите версию приложения для Android по ссылке`);
-} else if ((clientOS1 === 1) && (clientDeviceYear < 2015)) {
+} else if ((clientOS === 1) && (clientDeviceYear < 2015)) {
     console.log(`Установите облегченную версию приложения для Android по ссылке`);
-} else if ((clientOS1 === 0) && (clientDeviceYear >= 2015)) {
+} else if ((clientOS === 0) && (clientDeviceYear >= 2015)) {
     console.log(`Установите версию приложения для iOS по ссылке`);
 } else {
     console.log(`Установите облегченную версию приложения для iOS по ссылке`);
 }
-
