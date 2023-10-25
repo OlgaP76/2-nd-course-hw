@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 180px);
-    padding-right: calc(50% - 180px);
+    padding-left: calc(50% - 171px);
+    padding-right: calc(50% - 171px);
   }
   .header {
     height: 735px;
@@ -14,7 +14,7 @@
   }
   .header__title {
     font-size: 32px;
-    line-height: normal;
+    line-height: 39px;
     padding: 0;
     text-align: center;
   }
@@ -39,5 +39,18 @@
     font-weight: 600;
     line-height: 32px;
     text-decoration: none;
+  }
+  .game__box {
+    height: 653px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 51px;
+  }
+  .game__title {
+    text-align: center;
+  }
+  .game__item {
+    align-items: center;
   }
 }/*# sourceMappingURL=_mobile.css.map */
