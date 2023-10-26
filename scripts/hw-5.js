@@ -82,11 +82,11 @@ alert(numUser());
 //* Задане 7
 
 function getCircleArea() {
-    return 3.14159 * this.radius ** 2;
+    return Math.PI * this.radius ** 2;
 };
 
 function getCirclePerim() {
-    return 2 * 3.14 * this.radius;
+    return 2 * Math.PI * this.radius;
 };
 
 const circle1 = {
