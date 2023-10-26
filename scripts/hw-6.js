@@ -79,3 +79,20 @@ console.log(filterPositive([-1, 0, 5, -10, 56]));
 console.log(filterPositive([-25, 25, 0, -1000, -2]));
 
 //* Задание 14
+const arrNumbers13 = [];
+for (let i = 0; i < 10; i++) {
+    arrNumbers13.push(Math.floor(Math.random()*11));
+}
+const evenNum = arrNumbers13.filter(i => i % 2 === 0);
+console.log(`Исходный массив - ${arrNumbers13}`);
+console.log(`Четный массив - ${evenNum}`);
+
+
+//* Задание 15
+const arrNumbers14 = [];
+for (let i = 0; i <6; i++) {
+    arrNumbers14.push(Math.floor(Math.random()*11));
+}
+const averageNum = arrNumbers14.reduce((a,i) => a+i)/arrNumbers14.length;
+console.log(`Исходный массив - ${arrNumbers14}`);
+console.log(`Среднее арифметическое - ${averageNum}`);
